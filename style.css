@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+form{
+    background-color: darkblue;
+    width: 50%;
+    color: white;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 1.5rem;
+}
+
+form h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#todo-input{
+    width: 28vw;
+    height: 25px;
+    padding-left: 25px;
+}
+
+#add-item{
+    height: 25px;
+    width: 10vw;
+    background-color: red;
+    color: white;
+    font-size: 3vmin;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    list-style-position: outside;
+    margin: 0;
+    padding: 25px 0;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.delete-item{
+    background-color: yellow;
+    border-radius: 5px;
+    border:none;
+    color: black;
+    width: 50px;
+    text-align: center;
+}
+
+.delete-item:hover{
+    background-color: orange;
+    width: 55px;
+}
